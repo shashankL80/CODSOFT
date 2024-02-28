@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.calci{
+    border: 2px solid red;
+    width: 20vw;
+   margin: 20px auto;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.button{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius:40%;
+    border: none;
+    background-color: rgb(92, 255, 255);
+}
+.button:hover{
+    transform: scale(1.06);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.result{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 4px;
+}
